@@ -21,7 +21,7 @@ app.set('views', path.resolve('./views'));
 
 app.use(express.urlencoded({ extended: false }));
 
-app.get('/', (req, res) => {
+app.get('/home', (req, res) => {
     res.render('homepage');
 });
 
